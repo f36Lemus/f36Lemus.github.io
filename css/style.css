@@ -362,6 +362,10 @@ footer #contact {
     font-family: 'Cuprum', sans-serif;
 }
 
+#contact span a {
+    color: rgba(66,232,251,1);
+}
+
 
 footer button {
     display: block;
