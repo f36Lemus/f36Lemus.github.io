@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #c1c1c1;
+    background-color: #142638;
 }
 
 h1 {
@@ -330,7 +330,7 @@ button.go_project a {
 
 
 footer {
-    padding: 0 10px 10px 10px;
+    padding: 0;
     width: 100%;
     height: auto;
     background:  #364a5f;
@@ -352,18 +352,22 @@ footer #contact {
     line-height: 2.1;
 }
 
-#contact span {
+#contact span,
+.freddy-contact span {
     font-size: 1.2em;
     line-height: 1.5;
     font-family: 'Cuprum', sans-serif;
 }
 
-#contact span a {
+#contact span a,
+.freddy-contact span a {
     color: rgba(66,232,251,1);
 }
 
 
-footer button {
+footer button,
+.freddy-contact button {
+    height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -388,6 +392,43 @@ footer button a {
     width: 20px;
     margin-right: 10px;
 }
+
+.freddy-contact .email-icon {
+    width: 22px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
+.freddy-pic {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15px;
+   
+}
+
+.freddy {
+    width: 100%;
+    border-radius: 50%;  
+}
+
+.freddy-contact {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.freddy-contact span {
+    color: rgba(66,232,251,1);
+    font-size: 1.1em;
+}
+
+.copy-contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 
 @keyframes offset {
   100% {
@@ -470,7 +511,7 @@ footer button a {
 /* ----///////////////---------- MEDIA QUERIES ---- */
 
 
-/* ------------ TABLET -----------  */
+/* ------------ TABLET ------------------------------------  */
 
 @media (min-width: 769px) {
     #freddy-avatar {
@@ -572,12 +613,27 @@ footer button a {
         text-align: left;      
     }
 
+    .freddy-contact {
+        margin-bottom: 60px;
+    }
+
     #contact p {
         font-size: 1.5em;
     }
 
+    .freddy-contact p {
+        margin-top: 35px;
+    }
+
     #contact span {
         font-weight: 700;
+    }
+
+    .freddy-pic { 
+        float: left;
+        width: 15%;
+        margin-right: 5%;
+        margin-top: 0;
     }
 }
 
@@ -621,7 +677,7 @@ footer button a {
         margin: 0;
         float: right;
     }
-∂
+
     .about_me {
         max-width: 1025px;
 
@@ -645,9 +701,20 @@ footer button a {
         padding: 120px 150px;
 
          }
+    .content p {
+        font-size: 1.8em;
+    }  
+
+    .content-text {
+        padding-left: 20%;
+    }   
 
     .logo .name {
         float: left;
+    }
+
+    .freddy-contact span {
+        font-size: 1.5em;
     }
 
     .icons {
