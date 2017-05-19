@@ -18,6 +18,7 @@ img {
 
 a {
     text-decoration: none;
+    color: #142638;
 }
 
 .wrap {
@@ -294,6 +295,11 @@ button.more-info {
     font-weight: 600;
 }
 
+.descrip-proj a {
+    color: #142638;
+    text-decoration: underline;
+}
+
 button.go_project {
     background: #142638;
     padding: 10px;
@@ -312,7 +318,17 @@ button.go_project a {
     color: rgba(66,232,251,1);
 }
 
-
+.email-button {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: solid 2px #fff;
+    background-color: #364a5f;
+    color: #fff;
+    padding: 10px;
+}
 
 
 
@@ -364,7 +380,7 @@ footer #contact {
     color: rgba(66,232,251,1);
 }
 
-
+/*
 footer button,
 .freddy-contact button {
     height: 100%;
@@ -376,11 +392,11 @@ footer button,
     background-color: #364a5f;
     color: #fff;
     padding: 10px;
-}
+}*/
 
-footer button a {
+/*footer button a {
     color: #fff;
-}
+}*/
 
 #contact span.copy {
     font-size: 0.8em;
@@ -629,6 +645,10 @@ footer button a {
         font-weight: 700;
     }
 
+    .email-button { 
+        width: 50%;
+    }
+
     .freddy-pic { 
         float: left;
         width: 15%;
@@ -756,6 +776,9 @@ footer button a {
 
     .logo-about {
         margin-left: -120px;
+    }
+    .email-button { 
+        width: 250px;
     }
 
 }
