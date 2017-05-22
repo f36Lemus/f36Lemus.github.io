@@ -92,7 +92,7 @@ a {
 
 .logo {
     width: 100%;
-    background: rgba(54,74,95,1);
+    /*background: rgba(54,74,95,1);*/
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -113,7 +113,7 @@ a {
     font-weight: 400;
     padding-bottom: 0;
     color: rgba(66,232,251,1);
-    background-color: rgba(54,74,95,1);
+    /*background-color: rgba(54,74,95,1);*/
     text-shadow: rgba(36,53,70,1) 1px 1px 0;
     padding-left: 0;
 }
@@ -668,7 +668,8 @@ footer button,
      }  
 
      .main {
-        
+        background: url(../img/fondo-skills-op.png) top left no-repeat;
+        background-size: 1260px 322px;
         max-width: 1260px;
      }
 
@@ -682,6 +683,7 @@ footer button,
     .main-nav {
         margin-top: 38px;
         padding-right: 12%;
+        background: transparent;
     }
     .main-nav ul {
         margin-left: -20%;
@@ -747,7 +749,7 @@ footer button,
      }
         
      .descrip-proj p { 
-        font-size: 1.3em;
+        font-size: 1.2em;
      }
 
     .content-projects {
