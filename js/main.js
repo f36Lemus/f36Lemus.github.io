@@ -19,7 +19,7 @@ var see_projec = [
 'https://f36lemus.github.io/My-performance-optimization-v2-R/',
 'https://f36lemus.github.io/accessibility_refactor_v1.6/',
 'https://f36lemus.github.io/my_svg_update_v2-2/',
-'https://f36procom.000webhostapp.com/star-wars/'
+'https://f36procom.000webhostapp.com/star-war/'
 ]
 
 
